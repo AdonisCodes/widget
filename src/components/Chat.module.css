@@ -1,0 +1,17 @@
+.chatwidth{
+    position: fixed;
+    bottom: 68px;
+    right: 10px;
+    width: 400px;
+    height: 90%;
+    border: 1px solid rgb(204, 204, 204);
+    z-index: 999999;
+    display: block;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 5px 40px;
+    border-radius: 16px;
+}
+.cinput{
+    bottom:1.25rem;
+    position: fixed;
+    padding-bottom:200px;
+}
