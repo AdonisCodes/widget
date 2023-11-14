@@ -11,7 +11,24 @@
     border-radius: 16px;
 }
 .cinput{
-    bottom:1.25rem;
+    bottom:6.25rem;
     position: fixed;
-    padding-bottom:200px;
+   width: 370px;
 }
+.chatMessagesContainer {
+    height: 500px; /* Adjust this value based on your needs */
+    overflow-y: auto;
+  }
+
+.userMessage {
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px 0;
+
+  }
+  
+.botMessage {
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px 0;
+  }
